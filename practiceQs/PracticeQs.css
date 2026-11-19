@@ -1,0 +1,62 @@
+/* *{
+    font-family:Courier New;
+}
+
+h1{
+    color:#1b74e4;
+}
+
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+
+.userbtn{
+    background-color: aqua;
+} */
+
+/* h2{
+    color: pink;
+}
+
+#greet {
+    color: yellow;
+}
+
+.myClass{
+    color: brown;
+}
+
+div.greetDiv .greet{
+    color: green;
+}
+
+.greetDiv p.greet {
+    color: blue;
+}
+
+.greetDiv .greet {
+    color:red;
+} */
+
+#first{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+}
+
+#f01{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+li{
+    display: inline;
+}

@@ -1,0 +1,83 @@
+/* .box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.one {
+    background-color: aquamarine;
+    position: relative;
+    z-index: -1;
+}
+
+.two {
+    background-color: darksalmon;
+    position: relative;
+    bottom: 50px;
+    z-index: 0;
+} */
+
+/* Answer Number 01 */
+
+.container {
+    margin: 0;
+    padding: 10px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+
+.container div {
+    background-color: pink;
+    font-size: 1.5rem;
+}
+
+.header {
+    grid-column: 1 / span 12;
+}
+
+.sidebar {
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 10;
+}
+
+.navigation {
+    grid-column: 4 / span 6;
+}
+
+.ads {
+    grid-column: 10 / span 3;
+    grid-row: 2 / span 10;
+}
+
+.main {
+    grid-column: 4 / span 6;
+    grid-row: 3 / span 9;
+}
+
+.footer {
+    grid-column: 1 / span 12;
+}
+
+/* Loader */
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

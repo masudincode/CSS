@@ -1,0 +1,72 @@
+/* .container {
+    height: 300px;
+    width: 600px;
+    background-color: pink;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 30px;
+    place-items: center;
+}
+
+.item {
+    height: 50px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.one {
+    place-self: start;
+}
+
+.one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column: 1 / span 2;
+}
+
+.two {
+    grid-row-start: 1;
+    grid-row-end: 3;
+   grid-row: 1 / 3;
+} */
+
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* animation-name: widthAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    animation: widthAnimation 3s ease-in 0s infinite normal;
+}
+
+@keyframes widthAnimation {
+    from {
+        width: 30px;
+        background-color: blue;
+    }
+    to {
+        width: 300px;
+        background-color: lightgreen;
+        border-radius: 15px;
+        box-shadow: 2px 2px 10px black;
+    }
+}
+
+@keyframes fontAnimation {
+    form {
+        font-size : 20px ;
+    }
+    to {
+        font-size  : 40px ;
+    }
+}

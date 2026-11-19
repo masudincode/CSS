@@ -1,0 +1,24 @@
+h1{
+   text-align: center;
+   text-decoration: wavy red underline;
+   letter-spacing:5px;
+   font-size: 50px;
+   font-family:arial;
+}
+
+h2{
+   text-align:start;
+   text-decoration:yellow line-through;
+   font-family:impact;
+}
+
+p{
+   text-align:justify;
+   font-weight:400;
+   line-height:25px;
+   font-family:normal;
+}
+h3{
+   text-align:left;
+   text-decoration:double pink underline;
+}

@@ -53,17 +53,115 @@
             <div class="sticky-nav">
                 <div class="sticky-nav-icons">
                    <img src="Assets/backward_icon.png">
-                   <img src="Assets/forward_icon.png" >
+                   <img src="Assets/forward_icon.png" class="hide" >
                 </div>
                 <div class="sticky-nav-options">
-                   <button class="badge nav-item" style="color: black;">Explore Premium</button>
+                   <button class="badge nav-item hide" style="color: black;">Explore Premium</button>
                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="display: inline-flex; align-items: center; justify-content: center; gap: 4px; margin-right: 5px;"></i>Install App</button>
                    <i class="fa-regular fa-user nav-item"></i>
                 </div>
             </div>
-            <div class="cards"></div>
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Mahiye Jinna So..</p>
+                    <p class="card-info">Darshan Raval (Lovely Mind Relax Hindi Love Song)</p>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Mere Pass Tum..</p>
+                    <p class="card-info">Mohmd-Rafi (Silent Ocean Lofi Mix-1 Min Music)</p>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">EGO NAA REDDY</p>
+                    <p class="card-info">Leo - Alter Ego Naa Reddy Full Song</p>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Mere Pass Tum..</p>
+                    <p class="card-info">Mohmd-Rafi (Silent Ocean Lofi Mix-1 Min Music)</p>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Mahiye Jinna So..</p>
+                    <p class="card-info">Darshan Raval (Lovely Mind Relax Hindi Love Song)</p>
+                </div>
+            </div>
+
+            <h2>Featured charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Song - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
         </div>
-        <div class="music-player"> music player</div>
+        <div class="music-player">
+            <div class="album">
+                <img src="Assets/album.jpg" class="album-item">
+                <div class="details">
+                  <p class="album-title">Daylight</p>
+                  <p class="artist">David Kushner</p>
+                </div>
+                <i class="fa-regular fa-heart album-icon"></i>
+                <i class="fa-solid fa-display album-icon"></i>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="Assets/player_icon1.png" class="player-control-icon">
+                    <img src="Assets/player_icon2.png" class="player-control-icon">
+                    <img src="Assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 1.85rem;">
+                    <img src="Assets/player_icon4.png" class="player-control-icon">
+                    <img src="Assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="seekbar">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="extra-controls">
+             <i class="fa-solid fa-play"></i>
+             <i class="fa-solid fa-microphone"></i>
+             <i class="fa-solid fa-list"></i>
+             <i class="fa-solid fa-computer"></i>
+             <i class="fa-solid fa-volume-high"></i>
+             <input type="range">
+            </div>
+        </div>
     </div>
 </body>
 </html>
